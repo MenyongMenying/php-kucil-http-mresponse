@@ -1,0 +1,21 @@
+{
+    "name": "menyong-menying/php-mresponse",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MenyongMenying",
+            "email": "menyongmenying.main@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MenyongMenying\\MLibrary\\Kucil\\Http\\MResponse\\": "./src/"
+        }
+    },
+    "require": {
+        "menyong-menying/php-kucil-utilities-mdata": "dev-main",
+        "menyong-menying/php-kucil-utilities-mobject": "dev-main",
+        "menyong-menying/php-kucil-utilities-minteger": "dev-main"
+    }
+}
